@@ -2,29 +2,30 @@
 
 An end-to-end predictive analytics and machine learning solution designed to transition business operations from reactive churn reporting to proactive customer retention. This system identifies at-risk customers early, tiers them by urgency, and provides prescriptive "Win-back" strategies to protect up to ₦238.6M in high-value revenue. The system that predicts customer churn with 90% accuracy and deploys a prescriptive Tableau Action Center to protect ₦25.6M in revenue at risk.
 
-##  Business Problem & Impact
+## Project Overview
+This project transitions business operations from reactive churn reporting to proactive customer retention. By combining SQL feature engineering, a machine learning classifier, and an automated Tableau Action Center, the system flags at-risk customers before they churn and prescribes targeted "Win-back" strategies to protect long-term revenue.
 
-* **The Challenge:** The company faced a **15.90% churn rate**, putting **₦25,589,999.98 of revenue at risk**. Churn was most aggressive among new customers and Premium Plan users within their first 3 months.
-* **The Solution:** Built a 3-tier pipeline to safeguard a **₦952.8M Total Customer Lifetime Value (CLV)**.
-* **The Impact:** The system accurately identifies stable customers (0.95 Precision) to prevent discount fatigue, while prioritizing 242 "VIP Rescue" accounts to recover up to **₦238.6M** in high-value revenue.
+## Project Title
+Intelligent Retention & Revenue Recovery System
 
-##  System Architecture
+## Business Problem
+The company is facing a **15.90% churn rate**, resulting in **₦25,589,999.98 of Revenue At Risk**. Churn is most aggressive among New Customers (181 accounts) and Premium Plan users, typically occurring within the first 3 months of the customer lifecycle. The objective is to deploy early interventions to protect the ₦952.8M Total Customer Lifetime Value (CLV).
 
-The system consists of a three-tier analytical pipeline:
+## Tools Used
+* **SQL:** Feature engineering, historical data aggregation, and Master Feature Table creation.
+* **Python (Scikit-Learn / Pandas):** Machine learning model development, predictive classification, and evaluation.
+* **Tableau:** Interactive dashboard design, customer tiering automation, and Prescriptive Action Center deployment.
 
-1. **SQL Feature Engineering:** Formulated a *Master Feature Table* extracting behavioral indicators including spending variability, customer tenure, and growth ratios.
-2. **Predictive Modeling:** Developed a machine learning classifier optimized for high sensitivity, achieving **90% accuracy** and **82% recall** for churners.
-3. **Prescriptive Action Center:** Created an automated Tableau dashboard that segments at-risk users into **Red Alert**, **Yellow Alert**, and **VIP Rescue** tiers for immediate corporate intervention.
+## Analysis Approach
+The system is built on a structured three-tier analytical pipeline:
+1. **SQL Feature Engineering:** Engineered a *Master Feature Table* tracking critical behavioral indicators such as spending variability, tenure, and growth ratios.
+2. **Predictive Modeling:** Developed a machine learning classifier optimized for high sensitivity, achieving **90% accuracy** and **82% recall** specifically for churners.
+3. **Prescriptive Action Center:** Created an automated Tableau dashboard that dynamically segments at-risk users into **Red Alert**, **Yellow Alert**, and **VIP Rescue** tiers for immediate targeted business actions.
 
-##  Key Data Insights
+## Insights and Recommendations
+* **Insight:** Habit (purchase frequency) is a much stronger predictor of retention than raw spend (monetary value). High-value Premium users are the least retained, exposing a critical "Value Gap" in their first 90 days.
+* **Recommendation:** Implement a specialized 90-day "Premium Onboarding" journey. Immediately prioritize outreach to the 242 **VIP Rescue** customers who represent the largest share of at-risk revenue (**₦238.6M**).
 
-* **Habit > Spend:** Purchase frequency is a significantly stronger predictor of long-term retention than raw monetary spend.
-* **The Value Gap:** High-value Premium users experience a sharp drop-off within the first 90 days, indicating a critical need for an optimized onboarding journey.
+## Machine Learning Business Implication
+By leveraging a model with **0.95 Precision for stable customers**, the business minimizes false alarms and avoids "discount fatigue" by only targeting customers who are truly at risk. Successfully executing the dashboard's "Action Table" can recover up to **₦238.6M** in high-value revenue and stabilize the long-term growth of the ₦672M stable customer base.
 
-## 📂 Repository Structure
-
-├── data/                  # Synthesized/Anonymized customer datasets
-├── sql/                   # Feature engineering & aggregation scripts
-├── models/                # Jupyter notebooks for ML training & evaluation
-├── dashboard/             # Tableau workbook files / screenshots
-└── README.md              # Project documentation
