@@ -25,6 +25,8 @@ The system is built on a structured three-tier analytical pipeline:
 ## Visuals
 [Dashboard1](https://github.com/akandug/intelligent-retention-system/blob/main/Dashboard1.PNG)
 
+[Dashboard2] (https://github.com/akandug/intelligent-retention-system/blob/main/Dashboard2.PNG)
+
 ## Insights and Recommendations
 * **Insight:** Habit (purchase frequency) is a much stronger predictor of retention than raw spend (monetary value). High-value Premium users are the least retained, exposing a critical "Value Gap" in their first 90 days.
 * **Recommendation:** Implement a specialized 90-day "Premium Onboarding" journey. Immediately prioritize outreach to the 242 **VIP Rescue** customers who represent the largest share of at-risk revenue (**₦238.6M**).
