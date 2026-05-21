@@ -22,6 +22,9 @@ The system is built on a structured three-tier analytical pipeline:
 2. **Predictive Modeling:** Developed a machine learning classifier optimized for high sensitivity, achieving **90% accuracy** and **82% recall** specifically for churners.
 3. **Prescriptive Action Center:** Created an automated Tableau dashboard that dynamically segments at-risk users into **Red Alert**, **Yellow Alert**, and **VIP Rescue** tiers for immediate targeted business actions.
 
+## Visuals
+[Dashboard1](https://github.com/akandug/intelligent-retention-system/blob/main/Dashboard1.PNG)
+
 ## Insights and Recommendations
 * **Insight:** Habit (purchase frequency) is a much stronger predictor of retention than raw spend (monetary value). High-value Premium users are the least retained, exposing a critical "Value Gap" in their first 90 days.
 * **Recommendation:** Implement a specialized 90-day "Premium Onboarding" journey. Immediately prioritize outreach to the 242 **VIP Rescue** customers who represent the largest share of at-risk revenue (**₦238.6M**).
