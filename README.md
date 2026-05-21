@@ -25,7 +25,9 @@ The system is built on a structured three-tier analytical pipeline:
 ## Visuals
 [Dashboard1](https://github.com/akandug/intelligent-retention-system/blob/main/Dashboard1.PNG)
 
-[Dashboard2] (https://github.com/akandug/intelligent-retention-system/blob/main/Dashboard2.PNG)
+[Dashboard2](https://github.com/akandug/intelligent-retention-system/blob/main/Dashboard2.PNG)
+
+[dashboard3](https://github.com/akandug/intelligent-retention-system/blob/main/Dashboard3.PNG)
 
 ## Insights and Recommendations
 * **Insight:** Habit (purchase frequency) is a much stronger predictor of retention than raw spend (monetary value). High-value Premium users are the least retained, exposing a critical "Value Gap" in their first 90 days.
